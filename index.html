@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carsol-Login-Page</title>
+    <!-- Stylesheet  -->
+
+    <link rel="stylesheet" href="./assets/OwlCarousel/dist/assets/owl.carousel.css">
+    <link rel="stylesheet" href="./assets/OwlCarousel/dist/assets/owl.carousel.min.css">
+    <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    
+    <div class="container">
+        <div class="panel">
+            <div class="row">
+                <div class="col liquid">
+                    <h4>CodeDev__</h4>
+
+                    <!-- owl-Carousel -->
+                    <div class="owl-carousel owl-loaded owl-theme">
+                       <img class="login-img" src="./assets/undraw_authentication_fsn5.svg" alt="">
+                        <img class="login-img" src="./assets/undraw_fingerprint_swrc.svg" alt="">
+                        <img class="login-img" src="./assets/undraw_personal_data_29co.svg" alt="">
+                    </div>
+                    <!-- /owl-Carousel -->
+                    <div class="follow">
+                        Follow Us 
+                        <a href="https://www.facebook.com/CodeDevOption/" target="_blank"><i class='bx bxl-facebook-circle' style='color:#3060ec'></i></a>
+                        <a href="https://twitter.com/Sadaruwan2002" target="_blank"><i class='bx bxl-twitter' style='color:#1b5aff'></i></a>
+                        <a href="https://github.com/CodeDevOption" target="_blank"><i class='bx bxl-github' style='color:#2d2e31'></i></a>
+                        <a href="https://www.youtube.com/channel/UCr_bT9CdRcd9X-CiJDcbPPw" target="_blank"><i class='bx bxl-youtube' style='color:#ff1b1b'></i></a>
+                        
+                        
+                        
+
+                    </div>
+                </div>
+                <div class="col login">
+                    <button type="button" class="btn btn-signup">Sign Up</button>
+                   <form>
+                    <div class="titles">
+                        <h6>We keep everything</h6>
+                        <h3>Ready to Login</h3>
+                    </div>
+                        <div class="form-group">
+                            <input type="text" placeholder="Email" class="form-input">
+                            <div class="input-icon">
+                                <i class='bx bxs-user' ></i>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <input type="password" placeholder="Password" class="form-input">
+                            <div class="input-icon">
+                                <i class='bx bxs-lock'></i>
+                            </div>
+                        </div>
+                        <button  type="submit" class="btn btn-login">Login</button>
+                    </form>
+                  
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Script Links -->
+    <script src="./assets/jquery-3.6.0.min.js"></script>
+    <script src="./assets/OwlCarousel/dist/owl.carousel.js"></script>
+    <!-- <script src="./assets/OwlCarousel/dist/owl.carousel.min.js"></script> -->
+
+    <script>
+            $(document).ready(function(){
+            $(".owl-carousel").owlCarousel({
+                loop:true,
+                autoplay:true,
+                autoplayTimeout:2000,
+                autoplayHoverPause:true,
+                items:1,
+            });
+});
+    </script>
+    <script src="./main.js"></script>
+
+</body>
+</html>
